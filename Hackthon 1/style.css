@@ -12,15 +12,15 @@ h1 {
 form {
     max-width: 600px;
     margin: auto;
-    background-color: purple; /* Dark gray background */
+    background-color: gray; /* Dark gray background */
     color: black; /* White text color */
     border-radius: 8px;
-    box-shadow: 0 4px 8px purple;
+    box-shadow: 0 4px 8px black;
     padding: 20px;
 }
 
 fieldset {
-    border: 2px solid rgb(168, 23, 168) 500; /* Darker gray border */
+    border: 2px solid black(168, 23, 168) 500; /* Darker gray border */
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
@@ -36,10 +36,10 @@ input, textarea {
     width: calc(100% - 16px);
     padding: 8px;
     margin-top: 4px;
-    border: 1px solid rgb(168, 23, 168) 500; /* Darker gray border */
+    border: 1px solid gray(168, 23, 168) 500; /* Darker gray border */
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: rgb(168, 23, 168) 500; /* Very dark gray background */
+    background-color: gray(168, 23, 168) 500; /* Very dark gray background */
     color: black; /* White text color */
 }
 
@@ -47,9 +47,9 @@ button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: rgb(168, 23, 168) 500; /* Darker button background */
+    background-color: gray(168, 23, 168) 500; /* Darker button background */
     color: black; /* White text color */
-    border: 1px solid rgb(168, 23, 168) 500; /* Dark gray border */
+    border: 1px solid gray(168, 23, 168) 500; /* Dark gray border */
     border-radius: 4px;
     cursor: pointer;
     margin-top: 10px;
@@ -63,13 +63,13 @@ button:hover {
     max-width: 600px;
     margin: auto;
     padding: 20px;
-    border: 2px solid rgb(168, 23, 168) 500; /* Darker gray border */
+    border: 2px solid grey 500; /*border */
     border-radius: 8px;
-    background-color: rgb(168, 23, 168) 500; /* Dark black background */
+    background-color: gray 500; /* black background */
     color: black; /* White text color */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 8px black;
 }
 
 #resumeoutput h2 {
-    color: black; /* White text color */
+    color: black; /* text color */
 }
